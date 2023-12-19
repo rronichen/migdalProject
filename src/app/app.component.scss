@@ -1,0 +1,41 @@
+.container{
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        min-width: 300px;
+        box-shadow: 0 12px 17px 0 #ff1d0033;
+        border: 1px solid #ff1d00;
+        border-radius: 5px;
+        padding: 10px;
+
+
+    }
+    .bold{
+        font-weight: 900;
+    }
+    .inputDiv{
+        font-size: 18px;
+        input{
+            border: 1px solid #adadad !important;
+            padding: 0 16px 0 0;
+            height: 44px;
+            direction: rtl;
+            border-radius: 30px;
+            font-size: 18px;
+        }
+    }
+    mat-label{
+        padding-left: 20px;
+    }
+
+}
